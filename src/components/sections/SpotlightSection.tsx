@@ -21,9 +21,9 @@ const spotlightCreator = {
     { day: "SAT", time: "3PM PT", game: "Tournament Prep" },
   ],
   clips: [
-    "https://images.unsplash.com/photo-1493711662062-fa541f7f2f19?w=300&h=180&fit=crop",
+    "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=300&h=180&fit=crop",
     "https://images.unsplash.com/photo-1560253023-3ec5d502959f?w=300&h=180&fit=crop",
-    "https://images.unsplash.com/photo-1552820728-8b83bb6b2b0a?w=300&h=180&fit=crop",
+    "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=300&h=180&fit=crop",
   ],
 };
 

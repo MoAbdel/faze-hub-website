@@ -2,45 +2,45 @@ import { motion } from "framer-motion";
 import { Calendar, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-const newsItems = [
+const topClips = [
   {
-    title: "FaZe Clan Dominates World Championship",
+    title: "FaZe Jason's Insane 1v4 Clutch",
     excerpt:
-      "Our Warzone team takes home the trophy after an incredible final match performance...",
+      "Watch as Jason pulls off an incredible comeback in ranked Warzone with this insane clutch play...",
     image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600&h=400&fit=crop",
-    category: "Tournament",
+    category: "Highlight",
     date: "Dec 5, 2024",
     featured: true,
   },
   {
-    title: "FaZe Rug Hits 25M Subscribers",
-    excerpt: "A massive milestone for one of our most beloved creators...",
+    title: "FaZe Lacy's Perfect Snipe Streak",
+    excerpt: "Five consecutive headshots in tournament play - this clip is pure perfection...",
     image: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=400&h=250&fit=crop",
-    category: "Announcement",
+    category: "Sniper",
     date: "Dec 4, 2024",
     featured: false,
   },
   {
-    title: "Behind the Scenes: FaZe House LA",
-    excerpt: "Take an exclusive tour of where the magic happens...",
+    title: "FaZe Ronaldo's Epic Escape",
+    excerpt: "How did he survive this? Watch one of the craziest escapes in FaZe history...",
     image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=400&h=250&fit=crop",
-    category: "BTS",
+    category: "Clutch",
     date: "Dec 3, 2024",
     featured: false,
   },
   {
-    title: "New Roster Additions Coming Soon",
-    excerpt: "Get ready for some exciting announcements about our growing family...",
+    title: "FaZe Silky's 30 Kill Game",
+    excerpt: "Silky goes absolutely crazy in this match with a career-high 30 eliminations...",
     image: "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=400&h=250&fit=crop",
-    category: "News",
+    category: "Gameplay",
     date: "Dec 2, 2024",
     featured: false,
   },
 ];
 
 export const NewsSection = () => {
-  const featured = newsItems[0];
-  const others = newsItems.slice(1);
+  const featured = topClips[0];
+  const others = topClips.slice(1);
 
   return (
     <section className="py-12 bg-faze-surface/50">
@@ -62,7 +62,7 @@ export const NewsSection = () => {
         </motion.div>
 
         <div className="grid lg:grid-cols-2 gap-6">
-          {/* Featured Article */}
+          {/* Featured Clip */}
           <motion.article
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -96,7 +96,7 @@ export const NewsSection = () => {
             </div>
           </motion.article>
 
-          {/* Other Articles */}
+          {/* Other Clips */}
           <div className="space-y-4">
             {others.map((item, index) => (
               <motion.article
