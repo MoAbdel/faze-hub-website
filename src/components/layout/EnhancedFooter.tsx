@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Twitter, Instagram, Youtube, Twitch, Discord } from "lucide-react";
+import { Twitter, Instagram, Youtube, Twitch, MessageCircle } from "lucide-react";
 
 const footerSections = [
   {
@@ -49,7 +49,7 @@ const socialLinks = [
   { icon: Instagram, href: "https://instagram.com/fazeclan", label: "Instagram" },
   { icon: Youtube, href: "https://youtube.com/fazeclan", label: "YouTube" },
   { icon: Twitch, href: "https://twitch.tv/fazeclan", label: "Twitch" },
-  { icon: Discord, href: "https://discord.gg/faze", label: "Discord" },
+  { icon: MessageCircle, href: "https://discord.gg/faze", label: "Discord" },
 ];
 
 export const EnhancedFooter = () => {
