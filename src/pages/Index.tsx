@@ -1,28 +1,22 @@
-import { Header } from "@/components/layout/Header";
-import { Footer } from "@/components/layout/Footer";
-import { HeroSection } from "@/components/sections/HeroSection";
+import { EditorialHero } from "@/components/sections/EditorialHero";
+import { HighlightsSection } from "@/components/sections/HighlightsSection";
 import { LiveHubSection } from "@/components/sections/LiveHubSection";
+import { ExclusiveDrops } from "@/components/sections/ExclusiveDrops";
 import { SocialFeedSection } from "@/components/sections/SocialFeedSection";
 import { SpotlightSection } from "@/components/sections/SpotlightSection";
-import { RewardsSection } from "@/components/sections/RewardsSection";
 import { NewsSection } from "@/components/sections/NewsSection";
-import { ShopBanner } from "@/components/sections/ShopBanner";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
-      <Header />
-      <main>
-        <HeroSection />
-        <LiveHubSection />
-        <SocialFeedSection />
-        <SpotlightSection />
-        <RewardsSection />
-        <NewsSection />
-        <ShopBanner />
-      </main>
-      <Footer />
-    </div>
+    <>
+      <EditorialHero />
+      <HighlightsSection />
+      <LiveHubSection />
+      <ExclusiveDrops />
+      <SocialFeedSection />
+      <SpotlightSection />
+      <NewsSection />
+    </>
   );
 };
 

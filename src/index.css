@@ -6,43 +6,43 @@
 
 @layer base {
   :root {
-    --background: 0 0% 4%;
-    --foreground: 0 0% 98%;
+    --background: 0 0% 0%;
+    --foreground: 210 17% 95%;
 
-    --card: 0 0% 7%;
-    --card-foreground: 0 0% 98%;
+    --card: 240 6% 10%;
+    --card-foreground: 210 17% 95%;
 
-    --popover: 0 0% 7%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 240 6% 10%;
+    --popover-foreground: 210 17% 95%;
 
-    --primary: 0 100% 50%;
+    --primary: 0 72% 51%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 0 0% 12%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 240 6% 10%;
+    --secondary-foreground: 210 17% 95%;
 
-    --muted: 0 0% 15%;
-    --muted-foreground: 0 0% 60%;
+    --muted: 240 4% 16%;
+    --muted-foreground: 240 5% 65%;
 
-    --accent: 0 100% 50%;
+    --accent: 0 72% 51%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 0 0% 18%;
-    --input: 0 0% 18%;
-    --ring: 0 100% 50%;
+    --border: 240 6% 10%;
+    --input: 240 6% 10%;
+    --ring: 0 72% 51%;
 
     --radius: 0.5rem;
 
-    /* Custom FaZe Colors */
-    --faze-red: 0 100% 50%;
+    /* Custom FaZe Colors - Complex.com Style */
+    --faze-red: 0 72% 51%;
     --faze-red-glow: 0 100% 60%;
-    --faze-dark: 0 0% 4%;
-    --faze-darker: 0 0% 2%;
-    --faze-surface: 0 0% 8%;
-    --faze-surface-hover: 0 0% 12%;
+    --faze-dark: 240 10% 4%;
+    --faze-darker: 0 0% 0%;
+    --faze-surface: 240 6% 10%;
+    --faze-surface-hover: 240 5% 15%;
 
     /* Gradients */
     --gradient-faze: linear-gradient(135deg, hsl(0, 100%, 50%) 0%, hsl(0, 100%, 30%) 100%);
