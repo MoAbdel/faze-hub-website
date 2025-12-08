@@ -15,44 +15,44 @@
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 0%;
 
-    --primary: 210 17% 96%;
-    --primary-foreground: 0 0% 0%;
+    --primary: 0 0% 0%;
+    --primary-foreground: 0 0% 100%;
 
     --secondary: 0 0% 0%;
-    --secondary-foreground: 210 17% 96%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 210 17% 90%;
+    --muted: 0 0% 90%;
     --muted-foreground: 0 0% 0%;
 
-    --accent: 210 17% 96%;
-    --accent-foreground: 0 0% 0%;
+    --accent: 0 0% 0%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
     --border: 0 0% 90%;
     --input: 0 0% 90%;
-    --ring: 210 17% 96%;
+    --ring: 0 0% 0%;
 
     --radius: 0.5rem;
 
-    /* Custom FaZe Colors - Light Theme */
-    --faze-red: 210 17% 96%;
-    --faze-red-glow: 210 17% 90%;
+    /* Custom FaZe Colors - Black Theme */
+    --faze-red: 0 0% 0%;
+    --faze-red-glow: 0 0% 10%;
     --faze-dark: 0 0% 10%;
     --faze-darker: 0 0% 0%;
     --faze-surface: 0 0% 98%;
-    --faze-surface-hover: 210 17% 94%;
+    --faze-surface-hover: 0 0% 95%;
 
     /* Gradients */
-    --gradient-faze: linear-gradient(135deg, hsl(210, 17%, 96%) 0%, hsl(210, 17%, 90%) 100%);
+    --gradient-faze: linear-gradient(135deg, hsl(0, 0%, 0%) 0%, hsl(0, 0%, 10%) 100%);
     --gradient-dark: linear-gradient(180deg, hsl(0, 0%, 10%) 0%, hsl(0, 0%, 0%) 100%);
-    --gradient-glow: radial-gradient(ellipse at center, hsl(210, 17%, 96%, 0.15) 0%, transparent 70%);
+    --gradient-glow: radial-gradient(ellipse at center, hsl(0, 0%, 0%, 0.15) 0%, transparent 70%);
 
     /* Shadows */
-    --shadow-glow: 0 0 60px hsl(210, 17%, 96%, 0.3);
+    --shadow-glow: 0 0 60px hsl(0, 0%, 0%, 0.3);
     --shadow-card: 0 4px 20px hsl(0, 0%, 0%, 0.1);
-    --shadow-live: 0 0 20px hsl(210, 17%, 96%, 0.5);
+    --shadow-live: 0 0 20px hsl(0, 0%, 0%, 0.5);
 
     /* Typography */
     --font-display: 'Bebas Neue', sans-serif;

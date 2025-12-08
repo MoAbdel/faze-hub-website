@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ChevronRight, Clock, Flame } from "lucide-react";
+import { ChevronRight, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useRef } from "react";
 
@@ -75,12 +75,9 @@ export const ExclusiveDrops = () => {
           className="flex items-center justify-between mb-8 md:mb-12"
         >
           <div>
-            <div className="flex items-center gap-2 mb-2">
-              <Flame className="h-6 w-6 text-primary" />
-              <h2 className="font-display text-3xl md:text-5xl tracking-wider">
-                EXCLUSIVE DROPS
-              </h2>
-            </div>
+            <h2 className="font-display text-3xl md:text-5xl tracking-wider mb-2">
+              EXCLUSIVE DROPS
+            </h2>
             <p className="text-muted-foreground">
               Limited collections from your favorite creators
             </p>
@@ -161,7 +158,7 @@ export const ExclusiveDrops = () => {
 
                 {/* Price Overlay */}
                 <div className="absolute bottom-4 left-4 right-4">
-                  <div className="bg-background/90 backdrop-blur-sm rounded-lg p-3">
+                  <div className="bg-background/90 backdrop-blur-sm rounded-lg p-3 text-center">
                     <span className="text-primary text-2xl font-bold">{drop.price}</span>
                   </div>
                 </div>
