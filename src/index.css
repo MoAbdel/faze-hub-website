@@ -6,53 +6,53 @@
 
 @layer base {
   :root {
-    --background: 0 0% 0%;
-    --foreground: 210 17% 95%;
+    --background: 0 0% 100%;
+    --foreground: 0 0% 0%;
 
-    --card: 240 6% 10%;
-    --card-foreground: 210 17% 95%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 0%;
 
-    --popover: 240 6% 10%;
-    --popover-foreground: 210 17% 95%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 0%;
 
-    --primary: 0 72% 51%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 210 17% 96%;
+    --primary-foreground: 0 0% 0%;
 
-    --secondary: 240 6% 10%;
-    --secondary-foreground: 210 17% 95%;
+    --secondary: 0 0% 0%;
+    --secondary-foreground: 210 17% 96%;
 
-    --muted: 240 4% 16%;
-    --muted-foreground: 240 5% 65%;
+    --muted: 210 17% 90%;
+    --muted-foreground: 0 0% 40%;
 
-    --accent: 0 72% 51%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 210 17% 96%;
+    --accent-foreground: 0 0% 0%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 240 6% 10%;
-    --input: 240 6% 10%;
-    --ring: 0 72% 51%;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 210 17% 96%;
 
     --radius: 0.5rem;
 
-    /* Custom FaZe Colors - Complex.com Style */
-    --faze-red: 0 72% 51%;
-    --faze-red-glow: 0 100% 60%;
-    --faze-dark: 240 10% 4%;
+    /* Custom FaZe Colors - Light Theme */
+    --faze-red: 210 17% 96%;
+    --faze-red-glow: 210 17% 90%;
+    --faze-dark: 0 0% 10%;
     --faze-darker: 0 0% 0%;
-    --faze-surface: 240 6% 10%;
-    --faze-surface-hover: 240 5% 15%;
+    --faze-surface: 0 0% 98%;
+    --faze-surface-hover: 210 17% 94%;
 
     /* Gradients */
-    --gradient-faze: linear-gradient(135deg, hsl(0, 100%, 50%) 0%, hsl(0, 100%, 30%) 100%);
-    --gradient-dark: linear-gradient(180deg, hsl(0, 0%, 6%) 0%, hsl(0, 0%, 4%) 100%);
-    --gradient-glow: radial-gradient(ellipse at center, hsl(0, 100%, 50%, 0.15) 0%, transparent 70%);
+    --gradient-faze: linear-gradient(135deg, hsl(210, 17%, 96%) 0%, hsl(210, 17%, 90%) 100%);
+    --gradient-dark: linear-gradient(180deg, hsl(0, 0%, 10%) 0%, hsl(0, 0%, 0%) 100%);
+    --gradient-glow: radial-gradient(ellipse at center, hsl(210, 17%, 96%, 0.15) 0%, transparent 70%);
 
     /* Shadows */
-    --shadow-glow: 0 0 60px hsl(0, 100%, 50%, 0.3);
-    --shadow-card: 0 4px 20px hsl(0, 0%, 0%, 0.5);
-    --shadow-live: 0 0 20px hsl(0, 100%, 50%, 0.5);
+    --shadow-glow: 0 0 60px hsl(210, 17%, 96%, 0.3);
+    --shadow-card: 0 4px 20px hsl(0, 0%, 0%, 0.1);
+    --shadow-live: 0 0 20px hsl(210, 17%, 96%, 0.5);
 
     /* Typography */
     --font-display: 'Bebas Neue', sans-serif;
@@ -69,8 +69,8 @@
   }
 
   .dark {
-    --background: 0 0% 4%;
-    --foreground: 0 0% 98%;
+    --background: 0 0% 100%;
+    --foreground: 0 0% 0%;
   }
 }
 

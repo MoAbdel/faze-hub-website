@@ -97,8 +97,8 @@ export default {
           "100%": { transform: "scale(1)", opacity: "1" },
         },
         "pulse-glow": {
-          "0%, 100%": { boxShadow: "0 0 20px hsl(0, 100%, 50%, 0.3)" },
-          "50%": { boxShadow: "0 0 40px hsl(0, 100%, 50%, 0.5)" },
+          "0%, 100%": { boxShadow: "0 0 20px hsl(210, 17%, 96%, 0.3)" },
+          "50%": { boxShadow: "0 0 40px hsl(210, 17%, 96%, 0.5)" },
         },
         shimmer: {
           "0%": { backgroundPosition: "-200% 0" },
@@ -121,8 +121,8 @@ export default {
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "faze-gradient": "linear-gradient(135deg, hsl(0, 100%, 50%) 0%, hsl(0, 100%, 30%) 100%)",
-        "dark-gradient": "linear-gradient(180deg, hsl(0, 0%, 6%) 0%, hsl(0, 0%, 4%) 100%)",
+        "faze-gradient": "linear-gradient(135deg, hsl(210, 17%, 96%) 0%, hsl(210, 17%, 90%) 100%)",
+        "dark-gradient": "linear-gradient(180deg, hsl(0, 0%, 10%) 0%, hsl(0, 0%, 0%) 100%)",
       },
     },
   },
