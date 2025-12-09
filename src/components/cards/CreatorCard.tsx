@@ -40,7 +40,7 @@ export const CreatorCard = ({
         
         {/* Live Badge */}
         {isLive && (
-          <div className="absolute top-3 left-3 flex items-center gap-2 bg-primary px-2 py-1 rounded text-xs font-semibold uppercase tracking-wider animate-pulse-glow">
+          <div className="absolute top-3 left-3 flex items-center gap-2 bg-primary text-primary-foreground px-2 py-1 rounded text-xs font-semibold uppercase tracking-wider animate-pulse-glow">
             <span className="w-2 h-2 bg-primary-foreground rounded-full animate-pulse" />
             Live
           </div>

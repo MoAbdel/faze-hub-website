@@ -105,7 +105,7 @@ export const LiveHubSection = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent" />
 
               {/* Live Badge */}
-              <div className="absolute top-4 left-4 flex items-center gap-2 bg-primary px-3 py-1.5 rounded text-sm font-semibold uppercase tracking-wider animate-pulse-glow">
+              <div className="absolute top-4 left-4 flex items-center gap-2 bg-primary text-primary-foreground px-3 py-1.5 rounded text-sm font-semibold uppercase tracking-wider animate-pulse-glow">
                 <span className="w-2 h-2 bg-primary-foreground rounded-full animate-pulse" />
                 Live
               </div>
